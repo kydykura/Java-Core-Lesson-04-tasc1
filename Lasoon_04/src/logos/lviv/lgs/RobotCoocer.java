@@ -2,15 +2,17 @@ package logos.lviv.lgs;
 
 public class RobotCoocer extends Robot{
 
-public String text;
+public String text= "РЇ RobotCoocker вЂ“ СЏ РїСЂРѕСЃС‚Рѕ РіРѕС‚СѓСЋ";;
 	
 	public RobotCoocer() {
 		
-		text = "Я RobotCoocker – я просто готую";
 	}
 
 	@Override
-	public String toString() {
+	public String work() {
+		
 		return text;
 	}
+	
+	
 }

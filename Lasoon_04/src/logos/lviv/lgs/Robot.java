@@ -2,23 +2,16 @@ package logos.lviv.lgs;
 
 public class Robot {
 
-		public String text;
+		public String text = "РЇ Robot, СЏ РїСЂРѕСЃС‚Рѕ РїСЂР°С†СЋСЋ";
+
 		public Robot() {
-			text = "Я Robot, я просто працюю";
-		}
+			}
 		
-		public String work(Object obj) {
-			
-			return obj.toString();
-		}
-		
+				
 		public String work() {
-			return this.text;
+			return text;
 		}
 
-		@Override
-		public String toString() {
-			return text;
-		} 
+		
 		
 }

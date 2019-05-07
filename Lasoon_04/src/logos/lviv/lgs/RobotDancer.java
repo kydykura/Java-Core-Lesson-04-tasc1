@@ -1,16 +1,18 @@
 package logos.lviv.lgs;
 
-public class RobotDancer {
+public class RobotDancer extends Robot{
 
-public String text;
+public String text= "РЇ RobotDancer вЂ“ СЏ РїСЂРѕСЃС‚Рѕ С‚Р°РЅС†СЋСЋ";
 	
 	public RobotDancer() {
 		
-		text = "Я RobotDancer – я просто танцюю";
 	}
 
 	@Override
-	public String toString() {
+	public String work() {
+		
 		return text;
 	}
+	
+	
 }

@@ -8,15 +8,15 @@ public class Application {
 		CoffeRobot cf = new CoffeRobot();
 		RobotDancer rd = new RobotDancer();
 		RobotCoocer rc = new RobotCoocer();
-		System.out.println(r.work(r));
-		System.out.println(r.work(cf));
-		System.out.println(r.work(rd));
-		System.out.println(r.work(rc));
+		System.out.println(r.work());
+		System.out.println(cf.work());
+		System.out.println(rd.work());
+		System.out.println(rc.work());
 		
-		Object mass[] = {r,cf,rd,rc};
+		Robot mass[] = {new Robot(),new CoffeRobot(), new RobotDancer(),new RobotCoocer()};
 		for (int i=0;i<=3;i++) {
 			
-			System.out.println(r.work(mass[i]));
+			System.out.println(mass[i].work());
 			
 		}
 	}
